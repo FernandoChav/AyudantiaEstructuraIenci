@@ -55,12 +55,6 @@ build CMakeFiles/untitled1.dir/main.cpp.obj: CXX_COMPILER__untitled1_unscanned_D
   OBJECT_DIR = CMakeFiles\untitled1.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled1.dir
 
-build CMakeFiles/untitled1.dir/Persona.cpp.obj: CXX_COMPILER__untitled1_unscanned_Debug C$:/Users/Ferna/CLionProjects/untitled1/Persona.cpp || cmake_object_order_depends_target_untitled1
-  DEP_FILE = CMakeFiles\untitled1.dir\Persona.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\untitled1.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled1.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target untitled1
@@ -69,7 +63,7 @@ build CMakeFiles/untitled1.dir/Persona.cpp.obj: CXX_COMPILER__untitled1_unscanne
 #############################################
 # Link the executable untitled1.exe
 
-build untitled1.exe: CXX_EXECUTABLE_LINKER__untitled1_Debug CMakeFiles/untitled1.dir/main.cpp.obj CMakeFiles/untitled1.dir/Persona.cpp.obj
+build untitled1.exe: CXX_EXECUTABLE_LINKER__untitled1_Debug CMakeFiles/untitled1.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\untitled1.dir
